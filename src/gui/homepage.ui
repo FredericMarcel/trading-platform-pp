@@ -21,6 +21,9 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
+    <widget class="Watchlist_Widget" name="widget" native="true"/>
+   </item>
+   <item>
     <widget class="QLineEdit" name="lineEdit">
      <property name="text">
       <string>Finance don't run without CS. Thus, CS majors are owed all of the world's GDP.</string>
@@ -29,6 +32,14 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Watchlist_Widget</class>
+   <extends>QWidget</extends>
+   <header location="global">watchlist_widget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
